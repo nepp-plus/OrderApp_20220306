@@ -18,7 +18,11 @@ class StoreAdapter(
     val mList: ArrayList<StoreData>
 ) : ArrayAdapter<StoreData>(mContext, resId, mList) {
 
+//    연습용 주석 1
+
     override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
+
+//        연습용 주석 2
 
         var tempRow = convertView
         if (tempRow == null) {
