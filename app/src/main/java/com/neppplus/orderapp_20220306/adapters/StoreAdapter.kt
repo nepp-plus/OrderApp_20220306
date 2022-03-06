@@ -18,6 +18,8 @@ class StoreAdapter(
     val mList: ArrayList<StoreData>
 ) : ArrayAdapter<StoreData>(mContext, resId, mList) {
 
+//    다른 내용의 주석으로 적어봅니다.
+
     override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
 
         var tempRow = convertView
